@@ -16,13 +16,33 @@
     }
     .rows { 
       width: 600px;
-      height: 600px;
       margin: auto;
       font-size: 25px;
-      overflow: hidden;
     }
     .row {
+      padding: 0;
+      height: 150px;
+      display: table;
       margin: auto;
+    }
+    .row h1 {
+      font-size: 100%;
+    }
+    .row > * a {
+      color: #000;
+      opacity: .2;
+      background: #888;
+      border: 0;
+      padding-top: 50px;
+      margin: 0;
+      text-align: center;
+      font-weight: normal;
+      height: 100px;
+      width: 150px;
+      float: right;
+    }
+    .row > * a:hover {
+      opacity: 1;
     }
     .row1 {
       width: 150px;
@@ -33,27 +53,6 @@
     .row3 {
       width: 450px;
     }
-		.row h1 {
-			font-size: 100%;
-		}
-    .row > * a {
-			color: #000;
-      opacity: .2;
-			background: #fff;
-      border: 0;
-      margin: 0;
-      padding: 0;
-      text-align: center;
-      font-weight: normal;
-      display: table-cell;
-      vertical-align: middle;
-      height: 150px;
-      width: 150px;
-			border: 1px solid black;
-    }
-    .row > * a:hover {
-      opacity: 1;
-		}
   </style>
 </head>
 <body>

@@ -1,6 +1,8 @@
+@import url(http://fonts.googleapis.com/css?family=Neuton&subset=latin);
 * {
   margin: 0;
   paddding: 0;
+  font-family: "Neuton", serif;
 }
 body {
   width: 900px;
