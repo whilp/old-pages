@@ -5,8 +5,9 @@
   font-family: "Neuton", serif;
 }
 body {
-  width: 900px;
+  width: 600px;
   margin: auto;
+  padding-top: 75px;
 }
 a {
   color: #000;
@@ -20,8 +21,8 @@ ul, ol, li {
   padding: 0;
 }
 p {
-	margin-top: 1em;
-	margin-bottom: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 body > header {
@@ -68,22 +69,55 @@ section li strong {
   clear: left;
 }
 
-div.tsar-plot {
-  width: 800px;
-  height: 400px;
+nav a {
+  text-decoration: none;
 }
-div.small div.tsar-plot {
-	width: 400px;
-	height: 200px;
+nav .rows { 
+  width: 600px;
+  margin: auto;
+  font-size: 25px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 50px;
 }
-div.tsar-overview {
-  width: 800px;
+nav .row {
+  padding: 0;
+  height: 150px;
+  display: table;
+  margin: auto;
+}
+nav .row:hover {
+  opacity: .4;
+  background: #ddd;
+}
+nav .row h1 {
+  font-size: 100%;
+  border: 0;
+}
+nav .row > * a {
+  color: #444;
+  opacity: .3;
+  background: #fff;
+  border: 0;
+  padding-top: 50px;
+  margin: 0;
+  text-align: center;
+  font-weight: normal;
   height: 100px;
+  width: 150px;
+  float: right;
 }
-div.small div.tsar-overview {
-  width: 400px;
-  height: 50px;
+nav .row > * a:hover {
+  opacity: 1;
+  color: #000;
+  background: #ccc;
 }
-div.tsar-legend tr {
-	float: left;
+nav .row1 {
+  width: 150px;
+}
+nav .row2 {
+  width: 300px;
+}
+nav .row3 {
+  width: 450px;
 }
