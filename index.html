@@ -17,16 +17,82 @@
       </div>
 
       <ul class="row row2">
-        <li><a href="">bitbucket</a></li>
-        <li><a href="">github</a></li>
+        <li><a href="#contact">contact</a></li>
+        <li><a href="">work</a></li>
       </ul>
       <ul class="row row3">
-        <li><a href="">contact</a></li>
-        <li><a href="">work</a></li>
+        <li><a href="">CV</a></li>
         <li><a href="">talks</a></li>
       </ul>
     </nav>
   </header>
+
+  <!-- HTML5 vCard microdata: http://www.whatwg.org/specs/web-apps/current-work/multipage/microdata.html -->
+  <!-- Google's take: http://www.google.com/support/webmasters/bin/answer.py?hl=en&answer=146646 -->
+  <!-- Pilgrim: http://diveintohtml5.org/extensibility.html -->
+  <a name="contact"></a>
+  <section itemscope itemtype="http://data-vocabulary.org/Person">
+    <p>I'm <span itemprop="name">Will Maier</span>; here's how you can reach me.</p>
+
+		<section>
+			<header>
+				<h1>Web</h1>
+			</header>
+			<ol>
+				<li><a itemprop="url" href="http://www.hep.wisc.edu/~wcmaier/">http://hep.wisc.edu/~wcmaier/</a></li>
+				<li><a itemprop="url" href="http://lfod.us/">http://lfod.us/</a></li>
+			</ol>
+		</section>
+
+		<section id="email">
+			<header>
+				<h1>Email</h1>
+			</header>
+			<ol>
+				<li itemprop="email">
+					<a itemprop="value" href="mailto:willmaier@ml1.net">willmaier@ml1.net</a>
+					<meta itemprop="type" content="pref" />(preferred)
+				</li>
+				<li itemprop="email"><a itemprop="value" href="mailto:will@m.aier.us">will@m.aier.us</a></li>
+			</ol>
+		</section>
+
+		<section id="im">
+			<header>
+				<h1>Instant Messaging</h1>
+			</header>
+			<ol>
+				<li>
+					<strong>Jabber/XMPP:</strong>
+					<span itemprop="impp">
+						<a itemprop="url" href="xmpp:wcmaier@jabber.ccc.de">wcmaier@jabber.ccc.de</a>
+						<meta itemprop="type" content="pref" />(preferred)
+						<meta itemprop="type" content="personal" />
+					</span>
+				</li>
+				<li>
+					<strong>AOL:</strong>
+					<span itemprop="impp">
+						<a itemprop="url" href="aim:goim?screenname=willmaier">willmaier</a>
+						<meta itemprop="type" content="business" />
+					</span>
+				</li>
+			</ol>
+		</section>
+
+		<section>
+			<header>
+				<h1>Telephone</h1>
+			</header>
+			<ol>
+				<li itemprop="tel" itemscope>
+					<strong itemprop="type">SIP/VOIP:</strong>
+					<span itemprop="value">sip:wcmaier@iptel.org</span>
+					<meta itemprop="type" content="pref" />(preferred)
+				</li>
+			</ol>
+		</section>
+	</section>
 
 </body>
 </html>

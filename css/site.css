@@ -69,6 +69,11 @@ section li strong {
   clear: left;
 }
 
+nav {
+	font-size: 25px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 25px;
+}
 nav a {
   text-decoration: none;
 }
@@ -76,9 +81,6 @@ nav .rows {
   width: 600px;
   margin: auto;
   font-size: 25px;
-  padding-bottom: 50px;
-  border-bottom: 1px solid #ccc;
-  margin-bottom: 50px;
 }
 nav .row {
   padding: 0;
