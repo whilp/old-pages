@@ -97,6 +97,9 @@ nav .row h1 {
   border: 0;
   display: inline;
 }
+nav .row h1 a {
+  opacity: .9;
+}
 nav .row > * a {
   color: #444;
   opacity: .3;
