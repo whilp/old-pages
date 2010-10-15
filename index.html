@@ -29,11 +29,12 @@
   </header>
 
   <!-- HTML5 vCard microdata: http://www.whatwg.org/specs/web-apps/current-work/multipage/microdata.html -->
+  <!-- http://www.whatwg.org/specs/web-apps/current-work/multipage/links.html#vcard -->
   <!-- Google's take: http://www.google.com/support/webmasters/bin/answer.py?hl=en&answer=146646 -->
   <!-- Pilgrim: http://diveintohtml5.org/extensibility.html -->
   <a name="contact"></a>
-  <section itemscope itemtype="http://data-vocabulary.org/Person">
-    <p>I'm <span itemprop="name">Will Maier</span>; here's how you can reach me.</p>
+  <section itemscope itemtype="http://microformats.org/profile/hcard">
+    <p itemprop="fn">I'm <span itemprop="given-name">Will</span> <span itemprop="family-name">Maier</span>; here's how you can reach me.</p>
 
     <a name="web"></a>
     <section>
