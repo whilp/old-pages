@@ -83,31 +83,29 @@
   </section>
 
   <a name="education"></a>
-  <section itemtype="http://microformats.org/profile/hcalendar" itemscope>
+  <section itemprop="education" itemscope>
     <header>
       <h1>Education</h1>
     </header>
 
-    <div itemprop="vevent" itemscope>
-      <div class="dates">
-        <time itemprop="dtstart" datetime="2002-08-01T08:00:00Z">2002</time> -
-        <time itemprop="dtend" datetime="2006-08-01T08:00:00Z">2006</time>
-      </div>
+    <section itemtype="http://microformats.org/profile/hcalendar#vevent" itemscope>
+      <header itemtype="http://microformats.org/profile/hcard" itemscope>
+        <h1 itemprop="org" itemscope>
+          <a itemprop="fn" href="http://www.wisc.edu/">University of Wisconsin</a>
+        </h1>
+      </header>
+    </section>
 
-      <section itemtype="http://microformats.org/profile/hcard" itemscope>
-        <header>
-          <h1 itemprop="org" itemscope>
-            <a itemprop="fn" href="http://www.wisc.edu/">University of Wisconsin</a>
-          </h1>
-        </header>
-        <ul>
-          <li>BA, History of Science, 2006</li>
-          <li>Dean's list (Fall 2003)</li>
-          <li>Advanced study of German</li>
-        </ul>
-      </section>
-
+    <div class="dates">
+      <time itemprop="dtstart" datetime="2002-08-01T08:00:00Z">2002</time> -
+      <time itemprop="dtend" datetime="2006-08-01T08:00:00Z">2006</time>
     </div>
+
+    <ul itemprop="description">
+      <li>BA, History of Science, 2006</li>
+      <li>Dean's list (Fall 2003)</li>
+      <li>Advanced study of German</li>
+    </ul>
 
   </section>
 
