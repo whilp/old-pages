@@ -20,6 +20,10 @@ section section {
   margin: 1em 0 1em 0;
 }
 
+ul {
+  clear: both;
+}
+
 dt, dd {
   line-height: 1.4em;
 }
@@ -31,7 +35,8 @@ dt {
 }
 
 dd,
-section section {
+section section,
+ul.description {
   margin-left: 10em;
 }
 
