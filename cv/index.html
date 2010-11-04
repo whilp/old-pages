@@ -12,7 +12,7 @@
 
 <article itemscope itemtype="http://microformats.org/profile/hresume">
 
-  <header itemscope itemtype="http://microformats.org/profile/hcard">
+		<header itemscope itemtype="http://microformats.org/profile/hcard">
     <h1 itemprop="fn" itemscope>
       <span itemprop="given-name">William</span> C.
       <span itemprop="family-name">Maier</span>
@@ -39,16 +39,47 @@
   </header>
 
   <a name="summary"></a>
-  <section>
+  <section itemprop="summary">
     <header>
       <h1>Summary</h1>
     </header>
 
-    <p itemprop="summary">XXX</p>
+    <p>XXX</p>
   </section>
 
   <a name="experience"></a>
-  <section>
+  <section itemscope itemtype="http://microformats.org/profile/hcalendar">
+    <header>
+      <h1>Experience</h1>
+    </header>
+
+		<div itemscope itemtype="http://microformats.org/profile/hcalendar#vevent">
+      <div class="dates">
+        <time itemprop="dtstart" datetime="2006-08-01T08:00:00Z">2006</time> -
+        <span class="present">present</span>
+      </div>
+
+      <section itemscope itemtype="http://microformats.org/profile/hcard">
+        <header>
+          <h1 itemprop="title">Systems Programmer</h1>
+          <h2 itemprop="affiliation" itemscope>
+            <a itemprop="organization-unit" href="http://www.hep.wisc.edu/cms/comp/">CMS Tier 2 Center</a>,
+            <a itemprop="organization-unit" href="http://www.hep.wisc.edu/">High Energy Physics</a>,
+            <a itemprop="organization-unit" href="http://www.wisc.edu/">University of Wisconsin</a>
+          </h2>
+        </header>
+
+        <ul itemprop="descripton">
+          <li>Developed custom software to secure, manage and monitor the dCache storage system using PostgreSQL and Python.</li>
+          <li>Improved performance and reliability of dCache on commodity hardware in a heavily distributed environment.</li>
+					<li>Debugged a wide variety of physics analysis jobs submitted via the grid (CRAB) and by local users.</li>
+          <li>Planned and deployed large purchases of commodity hardware to deliver more than 25,000 hours of computing per day and provide fast, reliable access to over 500 terabytes of LHC data.</li>
+          <li>Performed forensize analysis of security breaches and developed proactive measures to increase user and site security on the global computing grid.</li>
+        </ul>
+
+      </section>
+      </div>
+
   </section>
 
   <a name="education"></a>
