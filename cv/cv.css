@@ -2,3 +2,27 @@ article {
   width: 800px;
   margin: auto;
 }
+
+section {
+  clear: both;
+}
+
+article > section {
+  margin: 2em 0 2em 0;
+}
+
+header dt,
+header dd {
+  line-height: 1.4em;
+}
+
+header dt {
+  clear: left;
+  width: 5em;
+  height: 0;
+}
+
+header dd {
+  margin-left: 10em;
+  float: left;
+}
