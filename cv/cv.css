@@ -16,24 +16,31 @@ article > section {
   margin: 2em 0 2em 0;
 }
 
-header dt,
-header dd {
+section section {
+  margin: 1em 0 1em 0;
+}
+
+dt, dd {
   line-height: 1.4em;
 }
 
-header dt {
+dt {
   clear: left;
-  width: 5em;
+  text-align: left;
   height: 0;
 }
 
-header dd {
-  margin-left: 10em;
-  float: left;
-}
-
+dd,
 section section {
   margin-left: 10em;
+}
+
+section section .dates {
+  margin-left: -10em;
+}
+
+dd {
+  float: left;
 }
 
 section section header {
@@ -43,6 +50,5 @@ section section header {
 }
 
 section section .dates {
-  margin-left: -10em;
   float: left;
 }
