@@ -20,6 +20,10 @@ section section {
   margin: 1em 0 1em 0;
 }
 
+section header {
+  margin-bottom: 1em;
+}
+
 ul {
   clear: both;
 }
@@ -36,7 +40,8 @@ dt {
 
 dd,
 section section,
-ul.description {
+ul.description,
+dl.description {
   margin-left: 10em;
 }
 
@@ -56,4 +61,12 @@ section section header {
 
 section section .dates {
   float: left;
+}
+
+dl.description dt {
+  height: 1.4em;
+  margin-left: 0;
+}
+dl.description dd {
+  margin-left: 2em;
 }
