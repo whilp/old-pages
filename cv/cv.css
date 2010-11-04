@@ -7,6 +7,10 @@ ul {
   list-style-type: none;
 }
 
+li {
+  padding: .2em 0 .2em 0;
+}
+
 article {
   width: 800px;
   margin: auto;
