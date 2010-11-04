@@ -42,10 +42,6 @@ article {
 	margin-left: 0;
 }
 
-section {
-  clear: both;
-}
-
 article > section {
   margin: 2em 0 2em 0;
 }
@@ -67,16 +63,13 @@ section section h2 {
 	font-style: italic;
 }
 
-ul {
+ul,
+dt,
+section {
   clear: both;
 }
 
-dt, dd {
-  line-height: 1.4em;
-}
-
 dt {
-  clear: left;
   text-align: left;
   height: 0;
 }
