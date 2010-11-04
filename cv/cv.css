@@ -16,6 +16,14 @@ article {
   margin: auto;
 }
 
+.contact h1 {
+  margin-bottom: 1em;
+}
+
+.contact h2 {
+  margin-bottom: .5em;
+}
+
 section {
   clear: both;
 }
