@@ -13,14 +13,14 @@
 <article itemscope itemtype="http://microformats.org/profile/hresume">
 
   <header itemscope itemtype="http://microformats.org/profile/hcard">
-    <h1 itemprop="fn">
+    <h1 itemprop="fn" itemscope>
       <span itemprop="given-name">William</span> C.
       <span itemprop="family-name">Maier</span>
     </h1>
 
     <dl>
       <dt>address</dt>
-        <dd itemprop="address">
+        <dd itemprop="address" itemscope>
           <span itemprop="street-address">1235 Chandler St</span><br>
           <span itemprop="locality">Madison</span>,
           <span itemprop="region">WI</span>
@@ -37,6 +37,15 @@
     </dl>
 
   </header>
+
+  <a name="summary"></a>
+  <section>
+    <header>
+      <h1>Summary</h1>
+    </header>
+
+    <p itemprop="summary">XXX</p>
+  </section>
 
   <a name="experience"></a>
   <section>
