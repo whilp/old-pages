@@ -10,35 +10,33 @@
 </head>
 <body>
 
-<article>
+<article itemscope itemtype="http://microformats.org/profile/hresume">
 
-  <header>
-    <h1>William C. Maier</h1>
-  </header>
-
-  <a name="contact"></a>
-  <section itemscope itemtype="http://microformats.org/profile/hcard">
-    <header>
-      <h1>Contact</h1>
-    </header>
-
-    <address>
-      1235 Chandler St <br />
-      Madison, WI 53715 
-    </address>
+  <header itemscope itemtype="http://microformats.org/profile/hcard">
+    <h1 itemprop="fn">
+      <span itemprop="given-name">William</span> C.
+      <span itemprop="family-name">Maier</span>
+    </h1>
 
     <dl>
-      <dt>mobile</dt>
-      <dd>608.438.6162</dd>
-
-      <dt>email</dt>
-      <dd>willmaier@ml1.net</dd>
-
+      <dt>address</dt>
+        <dd itemprop="address">
+          <span itemprop="street-address">1235 Chandler St</span><br>
+          <span itemprop="locality">Madison</span>,
+          <span itemprop="region">WI</span>
+          <span itemprop="postal-code">53715</span>
+          <span itemprop="country-name">USA</span><br>
+          (<span itemprop="geo">43.073338;-89.405071</span>)
+        </dd>
       <dt>www</dt>
-      <dd>http://will.m.aier.us/</dd>
+        <dd><a itemprop="url" href="http://will.m.aier.us/">http://will.m.aier.us/</a></dd>
+      <dt>email</dt>
+        <dd itemprop="email"><a href="mailto:will@m.aier.us">will@m.aier.us</a></dd>
+      <dt>mobile</dt>
+        <dd itemprop="tel">+1 608 438 6162</dd>
     </dl>
 
-  </section>
+  </header>
 
   <a name="experience"></a>
   <section>
