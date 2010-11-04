@@ -10,6 +10,8 @@
 </head>
 <body>
 
+<!-- http://svn.whatwg.org/webapps/vocabs-index -->
+
 <article itemscope itemtype="http://microformats.org/profile/hresume">
 
 		<header itemscope itemtype="http://microformats.org/profile/hcard">
@@ -20,7 +22,7 @@
 
     <dl>
       <dt>address</dt>
-        <dd itemprop="address" itemscope>
+        <dd itemprop="adr" itemscope>
           <span itemprop="street-address">1235 Chandler St</span><br>
           <span itemprop="locality">Madison</span>,
           <span itemprop="region">WI</span>
@@ -48,12 +50,12 @@
   </section>
 
   <a name="experience"></a>
-  <section itemscope itemtype="http://microformats.org/profile/hcalendar">
+  <section>
     <header>
       <h1>Experience</h1>
     </header>
 
-		<div itemprop="vevent" itemscope>
+		<div itemprop="http://microformats.org/profile/hcalendar#vevent" itemscope>
       <div class="dates">
         <time itemprop="dtstart" datetime="2006-08-01T08:00:00Z">2006</time> -
         <span class="present">present</span>
@@ -62,10 +64,10 @@
       <section itemtype="http://microformats.org/profile/hcard" itemscope>
         <header>
           <h1 itemprop="title">Systems Programmer</h1>
-          <h2 itemprop="affiliation" itemscope>
+          <h2 itemprop="org" itemscope>
             <a itemprop="organization-unit" href="http://www.hep.wisc.edu/cms/comp/">CMS Tier 2 Center</a>,
             <a itemprop="organization-unit" href="http://www.hep.wisc.edu/">High Energy Physics</a>,
-            <a itemprop="organization-unit" href="http://www.wisc.edu/">University of Wisconsin</a>
+            <a itemprop="organization-name" href="http://www.wisc.edu/">University of Wisconsin</a>
           </h2>
         </header>
 
@@ -113,6 +115,19 @@
 
   <a name="publications"></a>
   <section>
+    <header>
+      <h1>Talks and publications</h1>
+    </header>
+
+		<ol>
+			<li>
+				<time datetime="2007-08-01T08:00:00Z">2007</time>
+				<cite>dCache Performance and Management</cite>,
+				USCMS Tier 2 Computing Workshop,
+				UCSD
+			<li>
+		</ol>
+
   </section>
 
   <a name="contributions"></a>
