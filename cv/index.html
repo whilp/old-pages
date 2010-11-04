@@ -13,8 +13,8 @@
 <!-- http://svn.whatwg.org/webapps/vocabs-index -->
 
 <article itemscope itemtype="http://microformats.org/profile/hresume">
-  <div itemprop="contact" itemscope">
-  <header itemtype="http://microformats.org/profile/hcard" itemscope>
+
+  <header itemprop="contact" itemtype="http://microformats.org/profile/hcard" itemscope>
     <h1 itemprop="n" itemscope>
       <span itemprop="given-name">William</span> C.
       <span itemprop="family-name">Maier</span>
@@ -39,7 +39,6 @@
     </dl>
 
   </header>
-  </div>
 
   <a name="summary"></a>
   <section itemprop="summary">
@@ -94,25 +93,26 @@
           <a itemprop="fn" href="http://www.wisc.edu/">University of Wisconsin</a>
         </h1>
       </header>
+
+      <div class="dates">
+        <time itemprop="dtstart" datetime="2002-08-01T08:00:00Z">2002</time> -
+        <time itemprop="dtend" datetime="2006-08-01T08:00:00Z">2006</time>
+      </div>
+
+      <ul itemprop="description">
+        <li>BA, History of Science, 2006</li>
+        <li>Dean's list (Fall 2003)</li>
+        <li>Advanced study of German</li>
+      </ul>
+
     </section>
-
-    <div class="dates">
-      <time itemprop="dtstart" datetime="2002-08-01T08:00:00Z">2002</time> -
-      <time itemprop="dtend" datetime="2006-08-01T08:00:00Z">2006</time>
-    </div>
-
-    <ul itemprop="description">
-      <li>BA, History of Science, 2006</li>
-      <li>Dean's list (Fall 2003)</li>
-      <li>Advanced study of German</li>
-    </ul>
 
   </section>
 
   <a name="publications"></a>
   <section>
     <header>
-      <h1>Talks</h1>
+      <h1>Talks and publications</h1>
     </header>
 
     <dl>
@@ -149,19 +149,63 @@
 
   <a name="interests"></a>
   <section>
+    <header>
+      <h1>Interests</h1>
+    </header>
+
+    <ul>
+      <li itemprop="skill">Operating systems (BSD, Linux)</li>
+    </ul>
   </section>
 
   <a name="service"></a>
   <section>
+    <header>
+      <h1>Service</h1>
+    </header>
+
+    <section itemprop="affiliation">
+      <header itemtype="http://microformats.org/profile/hcard" itemscope>
+        <h1 itemprop="org" itemscope>
+          <a itemprop="fn" href="http://www.XXX.org/">Social Justice Center</a>
+          <span itemprop="role">member</span>, board of directors
+        </h1>
+      </header>
+
+      <div class="dates">
+        <time itemprop="dtstart" datetime="2004-08-01T08:00:00Z">2004</time> -
+        <time itemprop="dtstart" datetime="2005-08-01T08:00:00Z">2005</time>
+      </div>
+
+    </section>
+
   </section>
 
   <a name="miscellanea"></a>
   <section>
+    <header>
+      <h1>Miscellanea</h1>
+    </header>
+
+    <dl>
+      <dt>Date of birth</dt>
+      <dd>XXX</dd>
+    </dl>
+
   </section>
 
   <a name="references"></a>
   <section>
+    <header>
+      <h1>References</h1>
+    </header>
+
+    <p>Available upon request.</p>
   </section>
+
+  <footer>
+    <p>Madison, Wisconsin, November 11, 2010.</p>
+  </footer>
 
 </article>
 
