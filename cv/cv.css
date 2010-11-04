@@ -39,7 +39,7 @@ article {
 
 .affiliation h1,
 .affiliation h2 {
-	margin-left: 0;
+  margin-left: 0;
 }
 
 article > section {
@@ -56,11 +56,11 @@ section header {
 
 section section h1,
 section section h2 {
-	margin-left: -2em;
+  margin-left: -2em;
 }
 
 section section h2 {
-	font-style: italic;
+  font-style: italic;
 }
 
 ul,
