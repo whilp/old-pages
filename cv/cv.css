@@ -16,6 +16,12 @@ li {
   padding: .2em 0 .2em 0;
 }
 
+p,
+dd,
+li {
+  text-align: justify;
+}
+
 article {
   width: 800px;
   margin: auto;
