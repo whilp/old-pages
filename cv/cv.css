@@ -1,8 +1,8 @@
+@import "../css/typography.css";
+
 * {
   padding: 0;
   margin: 0;
-  background: #fff;
-  color: #000;
   text-decoration: none;
   font-weight: normal;
   line-height: 1.4em;

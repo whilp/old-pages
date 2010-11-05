@@ -1,0 +1,9 @@
+@import "../fonts/latin-modern-mono/stylesheet.css";
+@import "../fonts/latin-modern-roman/stylesheet.css";
+@import "../fonts/latin-modern-sans/stylesheet.css";
+
+* {
+  font-family: "LatinModernRoman10Regular", Arial, serif;
+  color: #000;
+  background: #FFF;
+}
