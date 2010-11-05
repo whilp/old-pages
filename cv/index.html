@@ -24,8 +24,8 @@
     <h2>Contact</h2>
 
     <dl>
-      <dt>address</dt>
-        <dd itemprop="adr" itemscope>
+      <dt class="gutter">address</dt>
+        <dd class="main" itemprop="adr" itemscope>
           <span itemprop="street-address">1235 Chandler St</span><br>
           <span itemprop="locality">Madison</span>,
           <span itemprop="region">WI</span>
@@ -33,12 +33,12 @@
           <span itemprop="country-name">USA</span><br>
           (<span itemprop="geo">43.073338;-89.405071</span>)
         </dd>
-      <dt>www</dt>
-        <dd><a itemprop="url" class="mono" href="http://will.m.aier.us/">http://will.m.aier.us/</a></dd>
-      <dt>email</dt>
-        <dd itemprop="email"><a class="mono" href="mailto:will@m.aier.us">will@m.aier.us</a></dd>
-      <dt>mobile</dt>
-        <dd itemprop="tel">+1 608 438 6162</dd>
+      <dt class="gutter">www</dt>
+        <dd class="main"><a itemprop="url" class="mono" href="http://will.m.aier.us/">http://will.m.aier.us/</a></dd>
+      <dt class="gutter">email</dt>
+        <dd class="main" itemprop="email"><a class="mono" href="mailto:will@m.aier.us">will@m.aier.us</a></dd>
+      <dt class="gutter">mobile</dt>
+        <dd class="main" itemprop="tel">+1 608 438 6162</dd>
     </dl>
 
     &nbsp;
@@ -51,7 +51,9 @@
       <h1>Summary</h1>
     </header>
 
-    <p class="description">
+    <div class="gutter">&nbsp;</div>
+
+    <p class="main">
       I'm fascinated by big data in science and on the web.
       These huge new datasets present some of today's most exciting challenges, and open source software has given me the tools to help tackle them.
       I believe that open standards and free software can not only measure new particles or reveal social networks &mdash; I believe they can save the world, and I want to help.
@@ -65,80 +67,86 @@
     </header>
 
     <div itemprop="experience" itemscope>
-    <section class="content" itemtype="http://microformats.org/profile/hcalendar#vevent" itemscope>
-      <aside>
+    <section itemtype="http://microformats.org/profile/hcalendar#vevent" itemscope>
+      <header class="gutter">
         <time itemprop="dtstart" datetime="2006-08-01T08:00:00Z">2006</time> &ndash;
-      </aside>
+      </header>
 
-				<p itemtype="http://microformats.org/profile/hcard" itemscope>
-					<span itemprop="title">Systems programmer</span><br>
-					<span itemprop="org" itemscope class="italic" class="italic employer">
-						<a itemprop="organization-unit" href="http://www.hep.wisc.edu/cms/comp/">CMS Tier 2 Center</a>,
-						<a itemprop="organization-name" href="http://www.wisc.edu/">University of Wisconsin</a>
-						<a itemprop="organization-unit" href="http://www.hep.wisc.edu/">High Energy Physics</a>
-					</span>
-				</p>
+      <div class="main">
+        <p itemtype="http://microformats.org/profile/hcard" itemscope>
+          <span itemprop="title">Systems programmer</span><br>
+          <span itemprop="org" itemscope class="italic">
+            <a itemprop="organization-unit" href="http://www.hep.wisc.edu/cms/comp/">CMS Tier 2 Center</a>,
+            <a itemprop="organization-name" href="http://www.wisc.edu/">University of Wisconsin</a>
+            <a itemprop="organization-unit" href="http://www.hep.wisc.edu/">High Energy Physics</a>
+          </span>
+        </p>
 
-				<ul itemprop="description">
-					<li>Lead operations of the University's <a href="http://www.nsf.gov/">NSF</a>- and <a href="http://www.er.doe.gov/">DOE</a>-supported <a href="http://cms.cern.ch/">LHC</a> physics analysis center.</li>
-					<li>Grew <a href="http://www.scientificlinux.org/">Linux</a> cluster from 200 to 2300 cores for analysis and from 100 terabytes to 1.2 petabytes for distributed data storage.</li>
-					<li>Developed custom software in <a href="http://www.python.org/">Python</a> to monitor cluster perfomance.</li>
-					<li>Lead transition from <a href="http://www.cfengine.org/">Cfengine</a> to <a href="http://www.puppetlabs.com/">Puppet</a> to improve cluster management.</li>
-					<li>Optimized performance of critical <a href="http://www.postgresql.org/">PostgreSQL</a> database servers.</li>
-					<li>Interfaced cluster with international computing resources via the <a href="http://www.opensciencegrid.org/">Open Science Grid</a>.</li>
-					<li>Provided a reliable, highly distributed 24/7 <a href="http://www.cs.wisc.edu/condor/">Condor</a> batch computing environment to a global user base.</li>
-					<li>Analyzed security breaches and developed proactive measures to increase site and user security.</li>
-				</ul>
+        <ul itemprop="description">
+          <li>Lead operations of the University's <a href="http://www.nsf.gov/">NSF</a>- and <a href="http://www.er.doe.gov/">DOE</a>-supported <a href="http://cms.cern.ch/">LHC</a> physics analysis center.</li>
+          <li>Grew <a href="http://www.scientificlinux.org/">Linux</a> cluster from 200 to 2300 cores for analysis and from 100 terabytes to 1.2 petabytes for distributed data storage.</li>
+          <li>Developed custom software in <a href="http://www.python.org/">Python</a> to monitor cluster perfomance.</li>
+          <li>Lead transition from <a href="http://www.cfengine.org/">Cfengine</a> to <a href="http://www.puppetlabs.com/">Puppet</a> to improve cluster management.</li>
+          <li>Optimized performance of critical <a href="http://www.postgresql.org/">PostgreSQL</a> database servers.</li>
+          <li>Interfaced cluster with international computing resources via the <a href="http://www.opensciencegrid.org/">Open Science Grid</a>.</li>
+          <li>Provided a reliable, highly distributed 24/7 <a href="http://www.cs.wisc.edu/condor/">Condor</a> batch computing environment to a global user base.</li>
+          <li>Analyzed security breaches and developed proactive measures to increase site and user security.</li>
+        </ul>
+      </div>
 
     </section>
     </div>
 
     <div itemprop="experience" itemscope>
     <section itemtype="http://microformats.org/profile/hcalendar#vevent" itemscope>
-      <header itemtype="http://microformats.org/profile/hcard" itemscope>
-        <h1 itemprop="title">Student systems administrator</h1>
-        <h2 itemprop="org" itemscope class="italic">
-          <a itemprop="organization-unit" href="http://www.hep.wisc.edu/cms/comp/">CMS Tier 2 Center</a>,
-          <a itemprop="organization-name" href="http://www.wisc.edu/">University of Wisconsin</a>
-          <a itemprop="organization-unit" href="http://www.hep.wisc.edu/">High Energy Physics</a>
-        </h2>
-      </header>
-
-      <div class="dates">
+      <header class="gutter">
         <time itemprop="dtstart" datetime="2005-08-01T08:00:00Z">2005</time> &ndash;
         <time itemprop="dtend" datetime="2006-08-01T08:00:00Z">2006</time>
-      </div>
+      </header>
 
-      <ul itemprop="description">
-        <li>Installed and repaired Linux compute nodes for LHC physics analysis.</li>
-        <li>Developed a custom request tracking system in Python based on <a href="http://roundup.sourceforge.net/">Roundup</a>.</li>
-        <li>Deployed fiber-optic network connections, supporting sustained data transfer rates of more than 10 gigabits per second.</li>
-        <li>Developed and configured custom <a href="http://www.nagios.org/">Nagios</a> and <a href="http://www.ganglia.info/">Ganglia</a> probes to monitor grid and infrastructure services</li>
-      </ul>
+      <div class="main">
+        <p itemtype="http://microformats.org/profile/hcard" itemscope>
+          <span itemprop="title">Student systems administrator</span><br>
+          <span itemprop="org" itemscope class="italic">
+            <a itemprop="organization-unit" href="http://www.hep.wisc.edu/cms/comp/">CMS Tier 2 Center</a>,
+            <a itemprop="organization-name" href="http://www.wisc.edu/">University of Wisconsin</a>
+            <a itemprop="organization-unit" href="http://www.hep.wisc.edu/">High Energy Physics</a>
+          </span>
+        </p>
+
+        <ul itemprop="description">
+          <li>Installed and repaired Linux compute nodes for LHC physics analysis.</li>
+          <li>Developed a custom request tracking system in Python based on <a href="http://roundup.sourceforge.net/">Roundup</a>.</li>
+          <li>Deployed fiber-optic network connections, supporting sustained data transfer rates of more than 10 gigabits per second.</li>
+          <li>Developed and configured custom <a href="http://www.nagios.org/">Nagios</a> and <a href="http://www.ganglia.info/">Ganglia</a> probes to monitor grid and infrastructure services</li>
+        </ul>
+      </div>
     </section>
     </div>
 
     <div itemprop="experience" itemscope>
     <section itemtype="http://microformats.org/profile/hcalendar#vevent" itemscope>
-      <header itemtype="http://microformats.org/profile/hcard" itemscope>
-        <h1 itemprop="title">Student systems administrator</h1>
-        <h2 itemprop="org" itemscope class="italic">
-          <a itemprop="organization-unit" href="http://www.cae.wisc.edu/">Computer Aided Engineering</a>,
-          <a itemprop="organization-name" href="http://www.wisc.edu/">University of Wisconsin</a>
-          <a itemprop="organization-unit" href="http://engr.wisc.edu/">College of Engineering</a>
-        </h2>
-      </header>
-
-      <div class="dates">
+      <header class="gutter">
         <time itemprop="dtstart" datetime="2005-08-01T08:00:00Z">2005</time> &ndash;
         <time itemprop="dtend" datetime="2006-08-01T08:00:00Z">2006</time>
-      </div>
+      </header>
 
-      <ul itemprop="description">
-        <li>Installed and maintained a large, <a href="http://www.openafs.org/">OpenAFS</a>-based software repository including open source and commercial software.</li>
-        <li>Maintained and improved the Center's <a href="http://bestpractical.com/rt/">request tracker</a>, written in <a href="http://www.perl.org/">Perl</a>.</li>
-        <li>Supported college-wide mail, webmail, DNS and <a href="http://www.apache.org/">Apache</a> virtual hosts in addition to large Linux and Solaris desktop labs.</li>
-      </ul>
+      <div class="main">
+        <p itemtype="http://microformats.org/profile/hcard" itemscope>
+          <span itemprop="title">Student systems administrator</span><br>
+          <span itemprop="org" itemscope class="italic">
+            <a itemprop="organization-unit" href="http://www.cae.wisc.edu/">Computer Aided Engineering</a>,
+            <a itemprop="organization-name" href="http://www.wisc.edu/">University of Wisconsin</a>
+            <a itemprop="organization-unit" href="http://engr.wisc.edu/">College of Engineering</a>
+          </span>
+        </p>
+
+        <ul itemprop="description">
+          <li>Installed and maintained a large, <a href="http://www.openafs.org/">OpenAFS</a>-based software repository including open source and commercial software.</li>
+          <li>Maintained and improved the Center's <a href="http://bestpractical.com/rt/">request tracker</a>, written in <a href="http://www.perl.org/">Perl</a>.</li>
+          <li>Supported college-wide mail, webmail, DNS and <a href="http://www.apache.org/">Apache</a> virtual hosts in addition to large Linux and Solaris desktop labs.</li>
+        </ul>
+      </div>
     </section>
     </div>
 
@@ -152,52 +160,56 @@
 
     <div itemprop="education" itemscope>
     <section itemtype="http://microformats.org/profile/hcalendar#vevent" itemscope>
-      <header itemtype="http://microformats.org/profile/hcard" itemscope>
-        <h1 itemprop="org" itemscope>
-          <a itemprop="fn" href="http://www.wisc.edu/">University of Wisconsin</a><br>
-          <span itemprop="adr" class="italic">
-            <span itemprop="locality">Madison</span>,
-            <span itemprop="region">Wisconsin</span>,
-            <span itemprop="country-name">USA</span>
-          </span>
-        </h1>
-      </header>
-
-      <div class="dates">
+      <header class="gutter">
         <time itemprop="dtstart" datetime="2002-08-01T08:00:00Z">2002</time> &ndash;
         <time itemprop="dtend" datetime="2006-08-01T08:00:00Z">2006</time>
-      </div>
+      </header>
 
-      <ul itemprop="description">
-        <li>BA, History of Science, 3.6 GPA (Fall 2006)</li>
-        <li>Dean's list (Fall 2003)</li>
-        <li>Advanced study of German</li>
-      </ul>
+      <div class="main">
+        <p itemtype="http://microformats.org/profile/hcard" itemscope>
+          <span itemprop="org" itemscope>
+            <a itemprop="fn" href="http://www.wisc.edu/">University of Wisconsin</a><br>
+            <span itemprop="adr" class="italic">
+              <span itemprop="locality">Madison</span>,
+              <span itemprop="region">Wisconsin</span>,
+              <span itemprop="country-name">USA</span>
+            </span>
+          </span>
+        </p>
+
+        <ul itemprop="description">
+          <li>BA, History of Science, 3.6 GPA (Fall 2006)</li>
+          <li>Dean's list (Fall 2003)</li>
+          <li>Advanced study of German</li>
+        </ul>
+      </div>
 
     </section>
     </div>
 
     <div itemprop="education" itemscope>
     <section itemtype="http://microformats.org/profile/hcalendar#vevent" itemscope>
-      <header itemtype="http://microformats.org/profile/hcard" itemscope>
-        <h1 itemprop="org" itemscope>
-          <a itemprop="fn" href="http://www.uwm.edu/">University of Wisconsin &ndash; Milwaukee</a><br>
-          <span itemprop="adr" class="italic">
-            <span itemprop="locality">Milwaukee</span>,
-            <span itemprop="region">Wisconsin</span>,
-            <span itemprop="country-name">USA</span>
-          </span>
-        </h1>
-      </header>
-
-      <div class="dates">
+      <header class="gutter">
         <time itemprop="dtstart" datetime="2001-08-01T08:00:00Z">2001</time> &ndash;
         <time itemprop="dtend" datetime="2002-08-01T08:00:00Z">2002</time>
       </div>
 
-      <ul itemprop="description">
-        <li>Studied German at university during senior year of high school.</li>
-      </ul>
+      <div class="main">
+        <p itemtype="http://microformats.org/profile/hcard" itemscope>
+          <span itemprop="org" itemscope>
+            <a itemprop="fn" href="http://www.uwm.edu/">University of Wisconsin &ndash; Milwaukee</a><br>
+            <span itemprop="adr" class="italic">
+              <span itemprop="locality">Milwaukee</span>,
+              <span itemprop="region">Wisconsin</span>,
+              <span itemprop="country-name">USA</span>
+            </span>
+          </span>
+        </p>
+
+        <ul itemprop="description">
+          <li>Studied German at university during senior year of high school.</li>
+        </ul>
+      </div>
 
     </section>
     </div>
@@ -210,7 +222,9 @@
       <h1>Talks and publications</h1>
     </header>
 
-    <dl class="description">
+    <div class="gutter">&nbsp;</div>
+
+    <dl class="main">
 
       <dt itemprop="publication">
         <cite>Storage at UW-Madison CMS Tier-2</cite>
@@ -240,65 +254,66 @@
     </header>
 
     <section itemprop="affiliation" class="affiliation">
-      <header itemtype="http://microformats.org/profile/hcard" itemscope>
-        <h1 itemprop="org" itemscope class="regular">
+      <header class="gutter">
+        <time itemprop="dtstart" datetime="2008-08-01T08:00:00Z">2008</time> &ndash;
+      </header>
+
+      <p class="main" itemtype="http://microformats.org/profile/hcard" itemscope>
+        <span itemprop="org" itemscope>
           <a itemprop="fn" href="http://www.openbsd.org/">OpenBSD</a>
           <span itemprop="role">developer</span>
-        </h1>
-      </header>
-
-      <div class="dates">
-        <time itemprop="dtstart" datetime="2008-08-01T08:00:00Z">2008</time> &ndash;
-      </div>
+        </span>
+      </p>
 
     </section>
 
     <section itemprop="affiliation" class="affiliation">
-      <header itemtype="http://microformats.org/profile/hcard" itemscope>
-        <h1 itemprop="org" itemscope class="regular">
+      <header class="gutter">
+        <time itemprop="dtstart" datetime="2002-08-01T08:00:00Z">2002</time> &ndash;
+      </header>
+
+      <p class="main" itemtype="http://microformats.org/profile/hcard" itemscope>
+        <span itemprop="org" itemscope>
           <a itemprop="fn" href="http://www.madisonlinux.org/">Madison Linux Users Group</a>
           <span itemprop="role">member</span>
-        </h1>
-      </header>
-
-      <div class="dates">
-        <time itemprop="dtstart" datetime="2002-08-01T08:00:00Z">2002</time> &ndash;
-      </div>
+        </span>
+      </p>
 
     </section>
 
     <section itemprop="affiliation" class="affiliation">
-      <header itemtype="http://microformats.org/profile/hcard" itemscope>
-        <h1 itemprop="org" itemscope class="regular">
+      <header class="gutter">
+        <time itemprop="dtstart" datetime="2004-08-01T08:00:00Z">2004</time> &ndash;
+        <time itemprop="dtstart" datetime="2005-08-01T08:00:00Z">2005</time>
+      </header>
+
+      <p class="main" itemtype="http://microformats.org/profile/hcard" itemscope>
+        <span itemprop="org" itemscope>
           <a itemprop="fn" href="http://www.socialjusticecenter.org/">Social Justice Center</a>
           board of directors, <span itemprop="role">secretary</span>
-        </h1>
-      </header>
-
-      <div class="dates">
-        <time itemprop="dtstart" datetime="2004-08-01T08:00:00Z">2004</time> &ndash;
-        <time itemprop="dtstart" datetime="2005-08-01T08:00:00Z">2005</time>
-      </div>
+        </span>
+      </p>
 
     </section>
 
     <section itemprop="affiliation" class="affiliation">
-      <header itemtype="http://microformats.org/profile/hcard" itemscope>
-        <h1 itemprop="org" itemscope class="regular">
-          <a itemprop="fn" href="http://www.madisoncommunity.coop/">Madison Community Cooperative</a>
-          board of directors, <span itemprop="role">member</span>
-        </h1>
-      </header>
-
-      <div class="dates">
+      <header class="gutter">
         <time itemprop="dtstart" datetime="2004-08-01T08:00:00Z">2004</time> &ndash;
         <time itemprop="dtstart" datetime="2005-08-01T08:00:00Z">2005</time>
-      </div>
+      </header>
+
+      <p class="main" itemtype="http://microformats.org/profile/hcard" itemscope>
+        <span itemprop="org" itemscope>
+          <a itemprop="fn" href="http://www.madisoncommunity.coop/">Madison Community Cooperative</a>
+          board of directors, <span itemprop="role">member</span>
+        </span>
+      </p>
 
     </section>
 
+    <div class="gutter">&nbsp;</div>
 
-    <ul class="description">
+    <ul class="main">
       <li>Developer of open source projects including <a href="http://packages.python.org/pyCLI">cli</a>, <a href="http://github.com/wcmaier/tsar">tsar</a>, <a href="http://code.hep.wisc.edu/">dcache-tools</a> and <a href="http://packages.python.org/ptemplate">ptemplate</a>.</li>
       <li>Contributor to open source projects including <a href="http://mercurial.selenic.com/">Mercurial</a>, <a href="http://sphinx.pocoo.org/">Sphinx</a> and <a href="http://tmux.sourceforge.net/">tmux</a>.</li>
     </ul>
@@ -311,7 +326,9 @@
       <h1>Interests</h1>
     </header>
 
-    <ul class="description">
+    <div class="gutter">&nbsp;</div>
+
+    <ul class="main">
       <li>Operating systems
        (<a href="http://www.openbsd.org/" itemprop="skill">BSD</a>,
         <a href="http://www.scientificlinux.org/" itemprop="skill">Linux</a>);
@@ -339,7 +356,9 @@
       <h1>References</h1>
     </header>
 
-    <p class="description">Available upon request.</p>
+    <div class="gutter">&nbsp;</div>
+
+    <p class="main">Available upon request.</p>
   </section>
 
   <footer>
