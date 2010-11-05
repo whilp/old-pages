@@ -10,17 +10,22 @@
 }
 
 .italic,
-cite {
+.italic *,
+cite,
+cite * {
   font-family: "LatinModernRoman10Italic", Arial, serif;
 }
 
 .bold,
+.bold *,
 h1, h2, h3, h4, h5, h6,
 h1 *, h2 *, h3 *, h4 *, h5 *, h6 * {
   font-family: "LatinModernRoman10Bold", Arial, serif;
 }
 
 .mono,
+.mono *,
+pre *, code *,
 pre, code {
   font-family: "LatinModernMono10Regular", Arial, serif;
 }
