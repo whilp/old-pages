@@ -89,9 +89,16 @@ dd {
 }
 
 section section header {
-  font-size: 55%;
   float: right;
   width: 100%;
+}
+
+section section header h1 {
+  font-size: 110%;
+}
+
+section section header h2 {
+  font-size: 100%;
 }
 
 .dates {
