@@ -15,7 +15,7 @@ body {
 }
 
 p, li, dt, dd, time {
-  line-height: 1.5em;
+  line-height: 1.5;
   text-align: justify;
 }
 
