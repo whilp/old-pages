@@ -20,8 +20,14 @@ ul {
   margin-left: 2em;
 }
 
-section {
+section, footer {
   clear: both;
+}
+
+footer {
+  margin: 10em 0 2em 0;
+	border-top: 2px solid #ccc;
+	padding-top: 1em;
 }
 
 .gutter,
