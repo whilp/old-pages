@@ -3,29 +3,39 @@
 @import "../fonts/latin-modern-sans/stylesheet.css";
 
 * {
-  font-family: "LatinModernRoman10Regular", Arial, serif;
+  font-family: inherit;
   color: #000;
   background: #FFF;
   font-weight: normal;
 }
 
+body {
+  font-family: "LatinModernRoman10Regular", Arial, serif;
+}
+
+p, li, dt, dd {
+  font-size: 14pt;
+}
+
+.regular {
+  font-family: "LatinModernRoman10Italic", Arial, serif;
+}
+
 .italic,
-.italic *,
-cite,
-cite * {
+cite {
   font-family: "LatinModernRoman10Italic", Arial, serif;
 }
 
 .bold,
-.bold *,
-h1, h2, h3, h4, h5, h6,
-h1 *, h2 *, h3 *, h4 *, h5 *, h6 * {
+h1, h2, h3, h4, h5, h6 {
   font-family: "LatinModernRoman10Bold", Arial, serif;
 }
 
+.sans {
+  font-family: "LatinModernSans10Regular", Arial, serif;
+}
+
 .mono,
-.mono *,
-pre *, code *,
 pre, code {
   font-family: "LatinModernMono10Regular", Arial, serif;
 }
