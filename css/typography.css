@@ -4,9 +4,10 @@
 
 * {
   font-family: inherit;
+  font-size: inherit;
+  font-weight: normal;
   color: #000;
   background: #FFF;
-  font-weight: normal;
 }
 
 body {
@@ -15,6 +16,14 @@ body {
 
 p, li, dt, dd {
   font-size: 14pt;
+}
+
+h1 {
+  font-size: 250%;
+}
+
+h2 {
+  font-size: 175%;
 }
 
 .regular {
