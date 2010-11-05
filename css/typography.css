@@ -4,26 +4,23 @@
 
 * {
   font-family: inherit;
-  font-size: inherit;
   font-weight: normal;
   color: #000;
   background: #FFF;
+  text-align: inherit;
 }
 
 body {
   font-family: "LatinModernRoman10Regular", Arial, serif;
 }
 
-p, li, dt, dd {
-  font-size: 14pt;
+p, li, dt, dd, time {
+  line-height: 1.5em;
+  text-align: justify;
 }
 
-h1 {
-  font-size: 250%;
-}
-
-h2 {
-  font-size: 175%;
+li, dd {
+  margin: .2em 0 .2em 0;
 }
 
 .regular {
