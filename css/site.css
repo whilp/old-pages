@@ -23,14 +23,14 @@ p {
 }
 
 nav {
-	border-top: 1px solid #ccc;
-	border-bottom: 1px solid #ccc;
-	text-align: right;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  text-align: right;
 }
 
 nav li {
-	display: inline;
-	padding: 0 .2em 0 .2em;
+  display: inline;
+  padding: 0 .2em 0 .2em;
 }
 
 section, footer {
