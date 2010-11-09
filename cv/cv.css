@@ -25,9 +25,10 @@ section, footer {
 
 footer {
   margin: 10em 0 2em 0;
-	border-top: 2px solid #ccc;
-	padding-top: 1em;
+  border-top: 2px solid #ccc;
+  padding-top: 1em;
 }
+
 p {
   margin-top: 0;
   margin-bottom: 0;
