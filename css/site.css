@@ -33,3 +33,29 @@ nav li {
 	display: inline;
 	padding: 0 .2em 0 .2em;
 }
+
+.gutter,
+.main {
+  float: left;
+}
+
+.gutter {
+  width: 20%;
+}
+
+.main {
+  width: 79%;
+}
+
+.main dd {
+  padding-left: 2em;
+}
+
+ul.main {
+  margin-left: 0;
+}
+
+.break {
+  margin-top: 1em;
+}
+

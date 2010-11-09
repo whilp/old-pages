@@ -28,32 +28,6 @@ footer {
 	border-top: 2px solid #ccc;
 	padding-top: 1em;
 }
-
-.gutter,
-.main {
-  float: left;
-}
-
-.gutter {
-  width: 20%;
-}
-
-.main {
-  width: 79%;
-}
-
-.main dd {
-  padding-left: 2em;
-}
-
-ul.main {
-  margin-left: 0;
-}
-
-.break {
-  margin-top: 1em;
-}
-
 p {
   margin-top: 0;
   margin-bottom: 0;
