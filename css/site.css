@@ -40,12 +40,16 @@ nav li {
 
 section, footer {
   clear: both;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+section, footer, nav {
+  display: block;
 }
 
 footer {
-  margin: 10em 0 2em 0;
   border-top: 2px solid #ccc;
-  padding-top: 1em;
 }
 
 .gutter,
