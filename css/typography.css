@@ -28,12 +28,13 @@ li, dd {
 }
 
 .italic,
-cite {
+cite, em {
   font-family: "LatinModernRoman10Italic", Arial, serif;
 }
 
 .bold,
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6,
+strong {
   font-family: "LatinModernSans10Bold", Arial, serif;
 }
 
