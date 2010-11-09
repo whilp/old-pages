@@ -3,12 +3,15 @@
 * {
   margin: 0;
   paddding: 0;
+  font-weight: normal;
 }
 
 body {
-  width: 600px;
+  width: 800px;
   margin: auto;
   margin-top: 2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 ul, ol, li {

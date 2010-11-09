@@ -1,4 +1,4 @@
-@import "../css/typography.css";
+@import "../css/site.css";
 
 * {
   padding: 0;
@@ -52,4 +52,9 @@ ul.main {
 
 .break {
   margin-top: 1em;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
