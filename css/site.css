@@ -10,7 +10,6 @@ body {
   width: 800px;
   margin: auto;
   margin-top: 2em;
-  margin-top: 2em;
   margin-bottom: 2em;
 }
 
@@ -32,6 +31,16 @@ nav {
 nav li {
 	display: inline;
 	padding: 0 .2em 0 .2em;
+}
+
+section, footer {
+  clear: both;
+}
+
+footer {
+  margin: 10em 0 2em 0;
+  border-top: 2px solid #ccc;
+  padding-top: 1em;
 }
 
 .gutter,
