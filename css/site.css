@@ -53,19 +53,9 @@ nav {
   margin-bottom: 2em;
 }
 
-figure {
-  display: block;
-  width: 80%;
-  margin: auto;
-}
-
-figure img {
-  margin: auto;
-  display: block;
-}
-
 figcaption p {
-  text-align: center;
+  text-align: right;
+  font-size: tiny;
 }
 
 footer {
@@ -88,6 +78,7 @@ figcaption *,
 /* gutter */
 section dt,
 header dt,
+figure figcaption,
 section section header,
 .gutter {
   float: left;
@@ -98,6 +89,7 @@ section section header,
 section dd,
 header dd,
 section section p,
+figure img,
 .main {
   float: left;
   width: 79%;
