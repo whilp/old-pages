@@ -84,22 +84,34 @@ figcaption *,
   font-size: small;
 }
 
-.gutter,
-.main,
-dl.maingutter dt,
-dl.maingutter dd {
+/* gutter */
+section dt {
   float: left;
-}
-
-.gutter,
-dl.maingutter dt {
   width: 20%;
 }
 
-.main,
-dl.maingutter dd {
+/* main */
+section dd {
+  float: left;
   width: 79%;
 }
+
+/* main, no gutter */
+section ol,
+section p,
+section pre {
+  float: left;
+  width: 79%;
+  margin-left: 20%;
+}
+
+/* full */
+section header {
+	margin-left: 0;
+	width: 100%;
+}
+
+
 
 .break {
   margin-top: 1em;

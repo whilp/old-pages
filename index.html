@@ -29,14 +29,14 @@
   </header>
 
   <a name="articles"></a>
-  <section>
+  <section class="section">
     <header>
       <h1>Recent articles</h1>
     </header>
 
-    <dl class="maingutter">
+    <dl>
       <dt>2010.11.12</dt>
-      <dd><a href="./github-with-hg">Using Github with Mercurial</a></dd>
+      <dd><a href="./github-minus-git">Github minus Git</a></dd>
     </dl>
     &nbsp;
   </section>
@@ -57,8 +57,7 @@
       <header>
         <h1>Web</h1>
       </header>
-      <div class="gutter">&nbsp;</div>
-      <ol class="main">
+      <ol>
         <li><a class="mono" itemprop="url" href="http://will.m.aier.us/">http://will.m.aier.us/</a></li>
         <li><a class="mono" itemprop="url" href="http://twitter.com/lt_kije">http://twitter.com/lt_kije</a></li>
         <li><a class="mono" itemprop="url" href="http://github.com/wcmaier">http://github.com/wcmaier</a></li>
@@ -72,8 +71,7 @@
       <header>
         <h1>Email</h1>
       </header>
-      <div class="gutter">&nbsp;</div>
-      <ol class="main">
+      <ol>
         <li itemprop="email">
           <a class="mono" itemprop="value" href="mailto:willmaier@ml1.net">willmaier@ml1.net</a>
           <meta itemprop="type" content="pref" />(preferred)
@@ -89,7 +87,7 @@
         <h1>Instant Messaging</h1>
       </header>
 
-      <dl class="maingutter">
+      <dl>
         <dt><strong>Jabber/XMPP:</strong></dt>
         <dd itemprop="impp">
             <a itemprop="url" class="mono" href="xmpp:wcmaier@jabber.ccc.de">wcmaier@jabber.ccc.de</a>
@@ -106,7 +104,7 @@
             <a itemprop="url" class="mono" href="irc://chat.freenode.net/lt_kije,isnick">irc://chat.freenode.net/lt_kije</a>
             <meta itemprop="type" content="personal" />
         </dd>
-        <dt><strong class="gutter">SILC:</strong></dt>
+        <dt><strong>SILC:</strong></dt>
         <dd itemprop="impp">
             <a itemprop="url" class="mono" href="silc://silc.comstyle.com/wcmaier_p,isnick">silc://silc.comstyle.com/wcmaier_p</a>
             <meta itemprop="type" content="personal" />
@@ -119,14 +117,15 @@
       <header>
         <h1>Telephone</h1>
       </header>
-      <ol>
-        <li itemprop="tel" itemscope>
-          <strong itemprop="type" class="gutter">SIP/VOIP:</strong>
-          <span class="main">
-          <a class="mono" href="sip:wcmaier@iptel.org" itemprop="value">sip:wcmaier@iptel.org</a>
-          <meta itemprop="type" content="pref" />(preferred)
+      <dl>
+        <dt><strong>SIP/VOIP:</strong></dt>
+        <dd>
+          <span itemprop="tel" itemscope>
+            <meta itemprop="type" content="sip" />
+            <a class="mono" href="sip:wcmaier@iptel.org" itemprop="value">sip:wcmaier@iptel.org</a>
+            <meta itemprop="type" content="pref" />(preferred)
           </span>
-        </li>
+        </dd>
       </ol>
       &nbsp;
     </section>
@@ -140,4 +139,3 @@
 
 </body>
 </html>
-
