@@ -19,8 +19,8 @@ ul, ol, li {
 }
 
 p {
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: .5em;
+  margin-bottom: .5em;
 }
 
 nav {
@@ -93,7 +93,6 @@ figure img,
 .main {
   float: left;
   width: 79%;
-  margin: 0 0 0 0;
 }
 
 /* main, no gutter */
@@ -105,7 +104,7 @@ section section dt,
 .onlymain {
   float: left;
   width: 79%;
-  margin: 0 0 0 20%;
+  margin-left: 20%;
 }
 
 section section li {
