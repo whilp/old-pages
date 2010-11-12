@@ -28,7 +28,9 @@ li, dd {
 }
 
 .italic,
-cite, em {
+cite, em,
+footer *,
+figcaption * {
   font-family: "LatinModernRoman10Italic", Arial, serif;
 }
 
