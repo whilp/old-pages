@@ -81,3 +81,7 @@ dl.maingutter dd {
 .indent {
   padding-left: 1em;
 }
+
+.posted {
+  float: left;
+}
