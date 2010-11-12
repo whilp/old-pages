@@ -55,6 +55,16 @@ nav {
 
 footer {
   margin-top: 2em;
+  text-align: center;
+}
+
+footer * {
+  margin: 0;
+}
+
+footer *,
+.posted {
+  color: #555;
 }
 
 .gutter,
