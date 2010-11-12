@@ -58,15 +58,19 @@ footer {
 }
 
 .gutter,
-.main {
+.main,
+dl.maingutter dt,
+dl.maingutter dd {
   float: left;
 }
 
-.gutter {
+.gutter,
+dl.maingutter dt {
   width: 20%;
 }
 
-.main {
+.main,
+dl.maingutter dd {
   width: 79%;
 }
 
