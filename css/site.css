@@ -24,8 +24,6 @@ p {
 }
 
 nav {
-  border-top: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
   text-align: right;
 }
 
@@ -46,10 +44,17 @@ section, footer, nav {
   display: block;
 }
 
-footer {
-  margin-top: 2em;
+footer, nav {
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
+}
+
+nav {
+  margin-bottom: 2em;
+}
+
+footer {
+  margin-top: 2em;
 }
 
 .gutter,
