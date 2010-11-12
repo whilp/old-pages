@@ -53,6 +53,21 @@ nav {
   margin-bottom: 2em;
 }
 
+figure {
+  display: block;
+  width: 80%;
+  margin: auto;
+}
+
+figure img {
+  margin: auto;
+  display: block;
+}
+
+figcaption p {
+  text-align: center;
+}
+
 footer {
   margin-top: 2em;
   text-align: center;
@@ -63,8 +78,10 @@ footer * {
 }
 
 footer *,
+figcaption *,
 .posted {
   color: #555;
+  font-size: small;
 }
 
 .gutter,
