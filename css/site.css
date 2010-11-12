@@ -69,6 +69,7 @@ figcaption p {
 }
 
 footer {
+  display: block;
   margin-top: 2em;
   text-align: center;
 }
@@ -85,33 +86,57 @@ figcaption *,
 }
 
 /* gutter */
-section dt {
+section dt,
+header dt,
+section section header,
+.gutter {
   float: left;
   width: 20%;
 }
 
 /* main */
-section dd {
+section dd,
+header dd,
+section section p,
+.main {
   float: left;
   width: 79%;
+  margin: 0 0 0 0;
 }
 
 /* main, no gutter */
 section ol,
 section p,
-section pre {
+section pre,
+section section ul,
+section section dt,
+.onlymain {
   float: left;
   width: 79%;
-  margin-left: 20%;
+  margin: 0 0 0 20%;
+}
+
+section section li {
+  margin-left: 1em;
 }
 
 /* full */
-section header {
-	margin-left: 0;
-	width: 100%;
+section header,
+.full {
+  margin-left: 0;
+  width: 100%;
 }
 
+/* resets */
+.onlymain dt,
+.onlymain dd {
+  width: 100%;
+  float: none;
+}
 
+.onlymain dd {
+  margin-left: 1em;
+}
 
 .break {
   margin-top: 1em;

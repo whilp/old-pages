@@ -15,7 +15,7 @@
 <article itemscope itemtype="http://microformats.org/profile/hresume">
 
   <div itemprop="contact" itemscope>
-  <header itemtype="http://microformats.org/profile/hcard" itemscope class="contact">
+  <header itemtype="http://microformats.org/profile/hcard" itemscope>
     <h1 itemprop="n" itemscope>
       <span itemprop="given-name">William</span> C.
       <span itemprop="family-name">Maier</span>
@@ -24,8 +24,8 @@
     <h2>Contact</h2>
 
     <dl>
-      <dt class="gutter">address</dt>
-        <dd class="main" itemprop="adr" itemscope>
+      <dt>address</dt>
+        <dd itemprop="adr" itemscope>
           <span itemprop="street-address">1235 Chandler St</span><br>
           <span itemprop="locality">Madison</span>,
           <span itemprop="region">WI</span>
@@ -33,18 +33,17 @@
           <span itemprop="country-name">USA</span><br>
           (<span itemprop="geo">43.073338;-89.405071</span>)
         </dd>
-      <dt class="gutter">www</dt>
-        <dd class="main">
+      <dt>www</dt>
+        <dd>
           <a itemprop="url" class="mono" href="../">http://will.m.aier.us/</a><br>
           <a itemprop="url" class="mono" href="http://github.com/wcmaier">http://github.com/wcmaier</a>
         </dd>
-      <dt class="gutter">email</dt>
-        <dd class="main" itemprop="email"><a class="mono" href="mailto:will@m.aier.us">will@m.aier.us</a></dd>
-      <dt class="gutter">mobile</dt>
-        <dd class="main" itemprop="tel">+1 608 438 6162</dd>
+      <dt>email</dt>
+        <dd itemprop="email"><a class="mono" href="mailto:will@m.aier.us">will@m.aier.us</a></dd>
+      <dt>mobile</dt>
+        <dd itemprop="tel">+1 608 438 6162</dd>
     </dl>
 
-    &nbsp;
   </header>
   </div>
 
@@ -54,9 +53,7 @@
       <h1>Summary</h1>
     </header>
 
-    <div class="gutter">&nbsp;</div>
-
-    <p class="main">
+    <p>
       I'm fascinated by big data in science and on the web.
       These huge new datasets present some of today's most exciting challenges, and open source software has given me the tools to help tackle them.
       I believe that open standards and free software can not only measure new particles or reveal social networks &mdash; I believe we can use them to save the world, and I want to help.
@@ -71,11 +68,11 @@
 
     <div itemprop="experience" itemscope>
     <section itemtype="http://microformats.org/profile/hcalendar#vevent" itemscope>
-      <header class="gutter">
+      <header>
         <time itemprop="dtstart" datetime="2006-08-01T08:00:00Z">2006</time> &ndash;
       </header>
 
-      <div class="main">
+      <div>
         <p itemtype="http://microformats.org/profile/hcard" itemscope>
           <strong itemprop="title">Systems programmer</strong><br>
           <em itemprop="org" itemscope>
@@ -85,7 +82,7 @@
           </em>
         </p>
 
-        <ul itemprop="description" class="indent">
+        <ul itemprop="description">
           <li>Led operations of the University's <a href="http://www.nsf.gov/">NSF</a>- and <a href="http://www.er.doe.gov/">DOE</a>-supported <a href="http://cms.cern.ch/">LHC</a> physics analysis center.</li>
           <li>Grew <a href="http://www.scientificlinux.org/">Linux</a> cluster from 200 to 2300 cores for analysis and from 100 terabytes to 1.2 petabytes for distributed data storage.</li>
           <li>Developed custom software in <a href="http://www.python.org/">Python</a> to monitor cluster performance.</li>
@@ -100,12 +97,12 @@
 
     <div itemprop="experience" itemscope>
     <section itemtype="http://microformats.org/profile/hcalendar#vevent" itemscope>
-      <header class="gutter">
+      <header>
         <time itemprop="dtstart" datetime="2005-08-01T08:00:00Z">2005</time> &ndash;
         <time itemprop="dtend" datetime="2006-08-01T08:00:00Z">2006</time>
       </header>
 
-      <div class="main">
+      <div>
         <p itemtype="http://microformats.org/profile/hcard" itemscope>
           <strong itemprop="title">Student systems administrator</strong><br>
           <em itemprop="org" itemscope>
@@ -115,7 +112,7 @@
           </em>
         </p>
 
-        <ul itemprop="description" class="indent">
+        <ul itemprop="description">
           <li>Developed a custom request tracking system in Python based on <a href="http://roundup.sourceforge.net/">Roundup</a>.</li>
           <li>Deployed fiber-optic network connections, supporting sustained data transfer rates of more than 10 gigabits per second.</li>
           <li>Developed and configured custom <a href="http://www.nagios.org/">Nagios</a> and <a href="http://www.ganglia.info/">Ganglia</a> probes to monitor grid and infrastructure services.</li>
@@ -126,12 +123,12 @@
 
     <div itemprop="experience" itemscope>
     <section itemtype="http://microformats.org/profile/hcalendar#vevent" itemscope>
-      <header class="gutter">
+      <header>
         <time itemprop="dtstart" datetime="2005-08-01T08:00:00Z">2005</time> &ndash;
         <time itemprop="dtend" datetime="2006-08-01T08:00:00Z">2006</time>
       </header>
 
-      <div class="main">
+      <div>
         <p itemtype="http://microformats.org/profile/hcard" itemscope>
           <strong itemprop="title">Student systems administrator</strong><br>
           <em itemprop="org" itemscope>
@@ -141,7 +138,7 @@
           </em>
         </p>
 
-        <ul itemprop="description" class="indent">
+        <ul itemprop="description">
           <li>Installed and maintained a large, <a href="http://www.openafs.org/">OpenAFS</a>-based software repository including open source and commercial software.</li>
           <li>Maintained and improved the Center's <a href="http://bestpractical.com/rt/">request tracker</a>, written in <a href="http://www.perl.org/">Perl</a>.</li>
           <li>Supported college-wide mail, webmail, DNS and <a href="http://www.apache.org/">Apache</a> virtual hosts in addition to large Linux and Solaris desktop labs.</li>
@@ -152,12 +149,12 @@
 
     <div itemprop="experience" itemscope>
     <section itemtype="http://microformats.org/profile/hcalendar#vevent" itemscope>
-      <header class="gutter">
+      <header>
         <time itemprop="dtstart" datetime="2005-08-01T08:00:00Z">2005</time> &ndash;
         <time itemprop="dtend" datetime="2006-08-01T08:00:00Z">2006</time>
       </header>
 
-      <div class="main">
+      <div>
         <p itemtype="http://microformats.org/profile/hcard" itemscope>
           <strong itemprop="title">Student software trainer</strong><br>
           <em itemprop="org" itemscope>
@@ -167,7 +164,7 @@
           </em>
         </p>
 
-        <ul itemprop="description" class="indent">
+        <ul itemprop="description">
       <li>Wrote new curriculum to teach Unix fundamentals to university students.</li>
         </ul>
       </div>
@@ -176,12 +173,12 @@
 
     <div itemprop="experience" itemscope>
     <section itemtype="http://microformats.org/profile/hcalendar#vevent" itemscope>
-      <header class="gutter">
+      <header>
         <time itemprop="dtstart" datetime="2004-08-01T08:00:00Z">2004</time> &ndash;
         <time itemprop="dtend" datetime="2005-08-01T08:00:00Z">2005</time>
       </header>
 
-      <div class="main">
+      <div>
         <p itemtype="http://microformats.org/profile/hcard" itemscope>
           <strong itemprop="title">Student network administrator</strong><br>
           <em itemprop="org" itemscope>
@@ -189,7 +186,7 @@
           </em>
         </p>
 
-        <ul itemprop="description" class="indent">
+        <ul itemprop="description">
       <li>Installed custom security monitoring tools for a large residential network.</li>
         </ul>
       </div>
@@ -207,12 +204,12 @@
 
     <div itemprop="education" itemscope>
     <section itemtype="http://microformats.org/profile/hcalendar#vevent" itemscope>
-      <header class="gutter">
+      <header>
         <time itemprop="dtstart" datetime="2002-08-01T08:00:00Z">2002</time> &ndash;
         <time itemprop="dtend" datetime="2006-08-01T08:00:00Z">2006</time>
       </header>
 
-      <div class="main">
+      <div>
         <p itemtype="http://microformats.org/profile/hcard" itemscope>
           <span itemprop="org" itemscope>
             <strong><a itemprop="fn" href="http://www.wisc.edu/">University of Wisconsin</a></strong><br>
@@ -224,7 +221,7 @@
           </span>
         </p>
 
-        <ul itemprop="description" class="indent">
+        <ul itemprop="description">
       <!-- move onto main line? -->
           <li>BA, History of Science, 3.6 GPA 
             (<time datetime="2006-08-01T08:00:00Z">Fall 2006</time>);
@@ -239,12 +236,12 @@
 
     <div itemprop="education" itemscope>
     <section itemtype="http://microformats.org/profile/hcalendar#vevent" itemscope>
-      <header class="gutter">
+      <header>
         <time itemprop="dtstart" datetime="2001-08-01T08:00:00Z">2001</time> &ndash;
         <time itemprop="dtend" datetime="2002-08-01T08:00:00Z">2002</time>
       </header>
 
-      <div class="main">
+      <div>
         <p itemtype="http://microformats.org/profile/hcard" itemscope>
           <span itemprop="org" itemscope>
             <strong><a itemprop="fn" href="http://www.uwm.edu/">University of Wisconsin &ndash; Milwaukee</a></strong><br>
@@ -256,7 +253,7 @@
           </span>
         </p>
 
-        <ul itemprop="description" class="indent">
+        <ul itemprop="description">
           <li>Studied German at university during senior year of high school.</li>
         </ul>
       </div>
@@ -272,14 +269,12 @@
       <h1>Talks and publications</h1>
     </header>
 
-    <div class="gutter">&nbsp;</div>
-
-    <dl class="main">
+    <dl class="onlymain">
 
       <dt itemprop="publication">
         <cite>Storage at UW-Madison CMS Tier-2</cite>
       </dt>
-      <dd class="indent">Open Science Grid Storage Forum, 
+      <dd>Open Science Grid Storage Forum, 
         <time datetime="2009-08-01T08:00:00Z">2009</time> and
         <time datetime="2009-09-01T08:00:00Z">2010</time>
       </dd>
@@ -287,20 +282,18 @@
       <dt itemprop="publication">
         <cite>Grid computing panel</cite>
       </dt>
-      <dd class="indent">Condor Week, University of Wisconsin,
+      <dd>Condor Week, University of Wisconsin,
         <time datetime="2009-08-01T08:00:00Z">2009</time>
       </dd>
 
       <dt itemprop="publication">
         <cite>dCache Performance and Management</cite>
       </dt>
-      <dd class="indent">USCMS Tier 2 Computing Workshop, UCSD,
+      <dd>USCMS Tier 2 Computing Workshop, UCSD,
         <time datetime="2007-08-01T08:00:00Z">2007</time>
       </dd>
 
     </dl>
-
-    &nbsp;
 
   </section>
 
@@ -310,12 +303,12 @@
       <h1>Contributions and Memberships</h1>
     </header>
 
-    <section itemprop="affiliation" class="affiliation">
-      <header class="gutter">
+    <section itemprop="affiliation">
+      <header>
         <time itemprop="dtstart" datetime="2008-08-01T08:00:00Z">2008</time> &ndash;
       </header>
 
-      <p class="main" itemtype="http://microformats.org/profile/hcard" itemscope>
+      <p itemtype="http://microformats.org/profile/hcard" itemscope>
         <span itemprop="org" itemscope>
           <a itemprop="fn" href="http://www.openbsd.org/">OpenBSD</a>
           <span itemprop="role">developer</span>.
@@ -324,12 +317,12 @@
 
     </section>
 
-    <section itemprop="affiliation" class="affiliation">
-      <header class="gutter">
+    <section itemprop="affiliation">
+      <header>
         <time itemprop="dtstart" datetime="2002-08-01T08:00:00Z">2002</time> &ndash;
       </header>
 
-      <p class="main" itemtype="http://microformats.org/profile/hcard" itemscope>
+      <p itemtype="http://microformats.org/profile/hcard" itemscope>
         <span itemprop="org" itemscope>
           <a itemprop="fn" href="http://www.madisonlinux.org/">Madison Linux Users Group</a>
           <span itemprop="role">member</span>.
@@ -338,13 +331,13 @@
 
     </section>
 
-    <section itemprop="affiliation" class="affiliation">
-      <header class="gutter">
+    <section itemprop="affiliation">
+      <header>
         <time itemprop="dtstart" datetime="2004-08-01T08:00:00Z">2004</time> &ndash;
         <time itemprop="dtstart" datetime="2005-08-01T08:00:00Z">2005</time>
       </header>
 
-      <p class="main" itemtype="http://microformats.org/profile/hcard" itemscope>
+      <p itemtype="http://microformats.org/profile/hcard" itemscope>
         <span itemprop="org" itemscope>
           <a itemprop="fn" href="http://www.socialjusticecenter.org/">Social Justice Center</a>
           board of directors, <span itemprop="role">secretary</span>.
@@ -353,13 +346,13 @@
 
     </section>
 
-    <section itemprop="affiliation" class="affiliation">
-      <header class="gutter">
+    <section itemprop="affiliation">
+      <header>
         <time itemprop="dtstart" datetime="2004-08-01T08:00:00Z">2004</time> &ndash;
         <time itemprop="dtstart" datetime="2005-08-01T08:00:00Z">2005</time>
       </header>
 
-      <p class="main" itemtype="http://microformats.org/profile/hcard" itemscope>
+      <p itemtype="http://microformats.org/profile/hcard" itemscope>
         <span itemprop="org" itemscope>
           <a itemprop="fn" href="http://www.madisoncommunity.coop/">Madison Community Cooperative</a>
           board of directors, <span itemprop="role">member</span>.
@@ -368,9 +361,7 @@
 
     </section>
 
-    <div class="gutter">&nbsp;</div>
-
-    <div class="main break"
+    <div class="onlymain break">
       <ul>
       <!-- dates? -->
         <li>Developer of open source projects including <a href="http://packages.python.org/pyCLI">cli</a>, <a href="http://github.com/wcmaier/tsar">tsar</a>, <a href="http://code.hep.wisc.edu/">dcache-tools</a> and <a href="http://packages.python.org/ptemplate">ptemplate</a>.</li>
@@ -386,30 +377,27 @@
       <h1>Interests</h1>
     </header>
 
-    <div class="gutter">&nbsp;</div>
-
-		<div class="main">
-      <ul>
-        <li>Operating systems
-         (<a href="http://www.openbsd.org/" itemprop="skill">BSD</a>,
-          <a href="http://www.scientificlinux.org/" itemprop="skill">Linux</a>).
-        </li>
-        <li>Programming
-         (<a href="http://www.python.org/" itemprop="skill">Python</a>,
-          <span itemprop="skill">shell</span>).
-        </li>
-        <li>Distributed computing
-         (<a href="http://cs.wisc.edu/condor/" itemprop="skill">Condor</a>,
-          <a href="http://www.dcache.org/" itemprop="skill">dCache</a>,
-          <a href="http://hadoop.apache.org/hdfs/" itemprop="skill">HDFS</a>).
-        </li>
-        <li>Performance and reliability monitoring
-         (<a href="http://www.ganglia.info/" itemprop="skill">Ganglia</a>,
-          <a href="http://www.nagios.org/" itemprop="skill">Nagios</a>).
-        </li>
-        <li>Cycling, cooking, coffee, electronic music.</li>
-      </ul>
-    </div>
+    <ul class="onlymain">
+      <li>Operating systems
+       (<a href="http://www.openbsd.org/" itemprop="skill">BSD</a>,
+        <a href="http://www.scientificlinux.org/" itemprop="skill">Linux</a>).
+      </li>
+      <li>Programming
+       (<a href="http://www.python.org/" itemprop="skill">Python</a>,
+        <span itemprop="skill">shell</span>).
+      </li>
+      <li>Distributed computing
+       (<a href="http://cs.wisc.edu/condor/" itemprop="skill">Condor</a>,
+        <a href="http://www.dcache.org/" itemprop="skill">dCache</a>,
+        <a href="http://hadoop.apache.org/hdfs/" itemprop="skill">HDFS</a>).
+      </li>
+      <li>Performance and reliability monitoring
+       (<a href="http://www.ganglia.info/" itemprop="skill">Ganglia</a>,
+        <a href="http://www.nagios.org/" itemprop="skill">Nagios</a>).
+      </li>
+      <li>Cycling, cooking, coffee, electronic music.</li>
+    </ul>
+		&nbsp;
   </section>
 
   <footer>
