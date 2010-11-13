@@ -69,7 +69,8 @@ footer * {
 
 footer *,
 figcaption *,
-.posted {
+.posted,
+.tweettime * {
   color: #555;
   font-size: small;
 }
@@ -79,6 +80,7 @@ section dt,
 header dt,
 figure figcaption,
 section section header,
+#tweets .tweettime,
 .gutter {
   float: left;
   width: 20%;
@@ -89,6 +91,7 @@ section dd,
 header dd,
 section section p,
 figure img,
+#tweets .tweet,
 .main {
   float: left;
   width: 79%;
@@ -138,4 +141,16 @@ section header,
 
 .posted {
   float: left;
+}
+
+.nounderline {
+  text-decoration: none;
+}
+
+#tweets ul {
+  list-style: none;
+}
+#tweets .tweettime {
+  text-decoration: none;
+  color: #555;
 }

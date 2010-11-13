@@ -29,13 +29,13 @@
   </header>
 
   <a name="articles"></a>
-  <section class="section">
+  <section>
     <header>
-      <h1>On twitter</h1>
+      <h1><a class="mono nounderline" href="http://twitter.com/lt_kije">@lt_kije</a> tweets</h1>
     </header>
 
-    <dl id="tweets">
-    </dl>
+    <div id="tweets">
+    </div>
     &nbsp;
   </section>
 
@@ -49,10 +49,9 @@
 getTwitters("tweets", {
   id: "lt_kije",
   count: 10,
-  enableLinks: True,
-  ignoreReplies: True,
-  clearContents: True,
-  template: '<dt><a href="http://twitter.com/%user_screen_name%/statuses/%id%/">%time%</a></dt><dd>%text%</dd>'
+  enableLinks: true,
+  ignoreReplies: true,
+  template: '<a class="italic tweettime" href="http://twitter.com/%user_screen_name%/statuses/%id%/">%time%</a> <span class="tweet">%text%</span>',
 });
 </script>
 </body>
