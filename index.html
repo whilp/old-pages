@@ -31,12 +31,10 @@
   <a name="articles"></a>
   <section class="section">
     <header>
-      <h1>Recent articles</h1>
+      <h1>On twitter</h1>
     </header>
 
-    <dl>
-      <dt>2010.11.12</dt>
-      <dd><a href="./github-minus-git">Github minus Git</a></dd>
+    <dl id="tweets">
     </dl>
     &nbsp;
   </section>
@@ -46,6 +44,16 @@
   </footer>
 
 </article>
-
+<script src="http://twitterjs.googlecode.com/svn/tags/1.13.1/src/twitter.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+getTwitters("tweets", {
+  id: "lt_kije",
+  count: 10,
+  enableLinks: True,
+  ignoreReplies: True,
+  clearContents: True,
+  template: '<dt><a href="http://twitter.com/%user_screen_name%/statuses/%id%/">%time%</a></dt><dd>%text%</dd>'
+});
+</script>
 </body>
 </html>
