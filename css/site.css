@@ -15,6 +15,7 @@ body {
 
 ul, ol, li {
   padding-left: 0;
+  list-style: none;
 }
 
 p {
