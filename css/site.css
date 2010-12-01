@@ -116,7 +116,8 @@ section section li {
 
 /* full */
 section header,
-.full {
+.full,
+.full p {
   margin-left: 0;
   width: 100%;
 }
