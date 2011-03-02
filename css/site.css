@@ -23,6 +23,11 @@ p {
   margin-bottom: .5em;
 }
 
+pre code {
+  display: block;
+  padding-left: 2em;
+}
+
 nav {
   text-align: right;
 }
