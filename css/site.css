@@ -153,6 +153,15 @@ section header,
   text-decoration: none;
 }
 
+footer dl {
+  border-bottom: 1px solid #ccc;
+}
+
+footer dt,
+footer dd {
+  display: inline;
+}
+
 #tweets ul {
   list-style: none;
 }
